@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="A scanner app for expired domain names on daily data" />
+    <meta name="keywords" content="domain,name,domainr,trader,domainer,drop,icann,expired,pattern,filter,name,auction,backorder,invest">
+
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>Pending Delete Domain Tracker</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/heroes/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-67TMSYBN2R"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-67TMSYBN2R');
+    </script>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            width: 100%;
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+            .nav-scroller .nav {
+                display: flex;
+                flex-wrap: nowrap;
+                padding-bottom: 1rem;
+                margin-top: -1px;
+                overflow-x: auto;
+                text-align: center;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+            }
+
+        .btn-bd-primary {
+            --bd-violet-bg: #712cf9;
+            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: var(--bd-violet-bg);
+            --bs-btn-border-color: var(--bd-violet-bg);
+            --bs-btn-hover-color: var(--bs-white);
+            --bs-btn-hover-bg: #6528e0;
+            --bs-btn-hover-border-color: #6528e0;
+            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+            --bs-btn-active-color: var(--bs-btn-hover-color);
+            --bs-btn-active-bg: #5a23c8;
+            --bs-btn-active-border-color: #5a23c8;
+        }
+
+        .bd-mode-toggle {
+            z-index: 1500;
+        }
+
+            .bd-mode-toggle .dropdown-menu .active .bi {
+                display: block !important;
+            }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            width: 100%;
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+            .nav-scroller .nav {
+                display: flex;
+                flex-wrap: nowrap;
+                padding-bottom: 1rem;
+                margin-top: -1px;
+                overflow-x: auto;
+                text-align: center;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+            }
+
+        .btn-bd-primary {
+            --bd-violet-bg: #712cf9;
+            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: var(--bd-violet-bg);
+            --bs-btn-border-color: var(--bd-violet-bg);
+            --bs-btn-hover-color: var(--bs-white);
+            --bs-btn-hover-bg: #6528e0;
+            --bs-btn-hover-border-color: #6528e0;
+            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+            --bs-btn-active-color: var(--bs-btn-hover-color);
+            --bs-btn-active-bg: #5a23c8;
+            --bs-btn-active-border-color: #5a23c8;
+        }
+
+        .bd-mode-toggle {
+            z-index: 1500;
+        }
+
+            .bd-mode-toggle .dropdown-menu .active .bi {
+                display: block !important;
+            }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <!--<link href="heroes.css" rel="stylesheet">-->
+</head>
+<body>
+
+
+
+
+
+    <main>
+        <!--<h1 class="visually-hidden">Heroes examples</h1>-->
+
+        <div class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4 rounded-lg" src="img/ddLogo3bKucuk2.png" alt="" width="60" height="60">
+            <h2 class="display-6 fw-bold text-body-emphasis">Pending-Delete Domain Tracker App</h2>
+            <div class="col-lg-6 mx-lg-auto">
+                <p class="lead mb-4">This application automates the search and tracking processes on the dropping domain names, making it easy to find the domain names you are looking for. It also includes a query builder tool in a build once, run always style.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <!--<button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>-->
+                    <button class="btn btn-md mt-2 ml-3" onclick="window.open('https://apps.apple.com/tr/app/pending-delete-domain-tracker/id6739537592', '_blank')" target="_blank">
+                        <div class="row justify-content-center allign-items-center">
+                            <img src="img/Download_on_the_App_Store.png" width="180" height="60" />
+                        </div>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 offset-md-3">
+                <img src="img/ss1_small.png" class="rounded float-left" alt="...">
+                <img src="img/ss2_small.png" class="rounded float-left ml-4" alt="...">
+                <img src="img/ss3_small.png" class="rounded float-left ml-4" alt="...">
+                <img src="img/ss4_small.png" class="rounded float-left ml-4" alt="...">
+
+
+            </div>
+        </div>
+
+        <div class="container px-5 py-5" id="hanging-icons">
+
+
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 col-md-9 offset-md-2">
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <i class="bi bi-search mr-3" style="font-size: 2rem; color: darkgreen; "></i>
+
+                    </div>
+                    <div>
+                        <h4 class="fs-2 text-body-emphasis">Advanced Search</h4>
+                        <p>Provides detailed search and tracking within dropped domain name data, including text and pattern searches.</p>
+
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <i class="bi bi-layout-wtf mr-3" style="font-size: 2rem; color: darkgreen; "></i>
+
+                    </div>
+                    <div>
+                        <h4 class="fs-2 text-body-emphasis">Query Builder</h4>
+                        <p>Query Builder is a structure that combines pattern and text query mechanics to create and store detailed queries. So you can build once and run always queries.</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 col-md-9 offset-md-2">
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <i class="bi bi-grid mr-3" style="font-size: 2rem; color: darkgreen; "></i>
+
+                    </div>
+                    <div>
+                        <h4 class="fs-2 text-body-emphasis">Daily Data</h4>
+                        <p>Hundreds of thousands of domain names expire every day. Our application collects and organizes this data on a daily basis and makes it available for you to explore.</p>
+
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <i class="bi bi-view-stacked mr-3" style="font-size: 2rem; color: darkgreen; "></i>
+
+                    </div>
+                    <div>
+                        <h4 class="fs-2 text-body-emphasis">Interest Lists</h4>
+                        <p>You can add the domain names you are interested in from the data generated as a result of your automatic or manual queries to your interest list and group them for later backordering.</p>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- Footer-->
+            <footer class="row g-6 py-5 row-cols-1 row-cols-lg-4 col-md-11 offset-md-1">
+                <div class="container px-5">
+                    <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                        <div class="col-auto"><div class="small m-0">Copyright&copy; QubitEra Apps, 2025</div></div>
+                        <div class="col-auto">
+                            <a class="link-light small" href="terms/privacypolicy.html">Privacy Policy</a>
+                            <span class="text-white mx-1">&middot;</span>
+                            <a class="link-light small" href="terms/termsofuse.html">Terms Of Use</a>
+                            <span class="text-white mx-1">&middot;</span>
+                            <a class="link-light small" href="mailto: dropdomain@qubitera.app">Mail To</a>
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+
+        <!-- Features section-->
+        <!--<div class="b-example-divider mb-1"></div>-->
+    </main>
+    <script src="./js/bundle.min.js"></script>
+
+</body>
+</html>
